@@ -41,13 +41,7 @@ export const headerData = {
       ],
     },
   ],
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Hubungi Kami',
-      href: 'https://github.com/onwidget/astrowind',
-      target: '_blank',
-    }
+  actions: [{ text: 'Hubungin Kami', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {

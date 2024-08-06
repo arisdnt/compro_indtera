@@ -10,6 +10,7 @@ import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'TERA CENDANI — Make Your Parfum Untuk Segala Kondisi',
@@ -25,10 +26,10 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Tentang Kami',
-        href: 'https://github.com/onwidget/astrowind',
+        href: getPermalink('/about'),
         target: '_blank',
       },
-      { text: 'Layanan Kami', href: '#features' },
+      { text: 'Layanan Kami', href: getPermalink('/services'), },
     ]}
     image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >

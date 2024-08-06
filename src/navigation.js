@@ -3,26 +3,26 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Beranda',
+      text: 'Home',
       href: getPermalink('/'),
     },
     {
-      text: 'Tentang Kami',
+      text: 'About Us',
       href: getPermalink('/about'),
     },
     {
-      text: 'Halaman',
+      text: 'Page',
       links: [
         {
-          text: 'Layanan',
+          text: 'Service',
           href: getPermalink('/services'),
         },
         {
-          text: 'Harga Layanan',
+          text: 'Princing',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'Hubungi Kami',
+          text: 'Concact Us',
           href: getPermalink('/contact'),
         },
       ],
@@ -31,11 +31,11 @@ export const headerData = {
       text: 'Blog',
       links: [
         {
-          text: 'Daftar Artikel',
+          text: 'Article List',
           href: getBlogPermalink(),
         },
         {
-          text: 'Daftar Kategori',
+          text: 'Category',
           href: getPermalink('tutorials', 'category'),
         },
       ],

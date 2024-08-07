@@ -41,13 +41,14 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ variant: 'primary', text: 'Hubungi Kami', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ variant: 'primary', text: 'Hubungi Kami', href: 'https://wa.me/+6282220005101', target: '_blank' }],
 };
 
 export const footerData = {
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'Whatsapp', icon: 'tabler:brand-whatsapp', href: 'https://wa.me/+6282220005101' },
+    { ariaLabel: 'Tiktok', icon: 'tabler:brand-tiktok', href: 'https://www.tiktok.com/@teracendani' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/teracendani/' },
+    { ariaLabel: 'Gmail', icon: 'tabler:brand-gmail', href: 'mailto:indteracendani@gmail.com' },
   ],
 };
